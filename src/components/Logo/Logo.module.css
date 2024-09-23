@@ -1,0 +1,11 @@
+
+.logo {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30.48px;
+	color: rgba(16, 16, 16, 1);
+}
+
+.logo:hover {
+	color: var(--accent-color);
+}

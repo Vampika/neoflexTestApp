@@ -1,0 +1,36 @@
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+
+.logo a {
+	color: rgba(16, 16, 16, 1);
+	text-decoration: none;
+}
+
+
+.navigation {
+	display: flex;
+	align-items: center;
+	gap: 34px;
+	position: relative;
+}
+
+.count {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 17px;
+	height: 17px;
+	background-color: var(--yellow-color);
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+	right: -10px;
+}
